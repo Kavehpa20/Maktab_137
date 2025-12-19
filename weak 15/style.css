@@ -1,0 +1,73 @@
+/* h1 {
+  color: rgb(0, 0, 0);
+} */
+
+/* .body-class {
+  background-color: rgb(217, 255, 80);
+}
+
+.heading1 {
+  color: crimson;
+} */
+
+.body {
+  font-size: 16px;
+  background-color: rgb(90, 205, 255);
+  color: red;
+}
+
+#heading1-id {
+  color: green;
+}
+
+h1,
+.heading1,
+#heading1-id {
+  color: rgb(251, 0, 255);
+  direction: right;
+}
+
+div p {
+  background-color: rgb(0, 225, 255);
+}
+
+div>p {
+  background-color: rgba(255, 128, 0, 0.3);
+}
+
+.paragraph,
+div+p {
+  background-color: rgb(46%, 49%, 25%);
+}
+
+
+div~p {
+  background-color: #92ff04;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 15px;
+  /* border-style: solid;
+  border-width: 5px;
+  border-color: black; */
+  border: 12px solid black;
+  padding: 30px;
+
+  /* box-shadow: 1px -1px 26px 2px #FF0000 */
+}
+
+.anchor {
+  text-decoration: underline;
+  color: brown;
+}
+
+.son {
+  text-transform: uppercase;
+  text-indent: 50px;
+  letter-spacing: 10px;
+  text-shadow: 1px -1px 26px -1px #ffffff
+}
